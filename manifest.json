@@ -1,0 +1,45 @@
+{
+  "name": "My Chrome Extention",
+  "manifest_version": 2,
+  "version": "0.1",
+  "description": "Manipulate the page to make my life better",
+  "content_scripts": [
+    {
+      "js": [
+        "jquery.min.js",
+        "grooveshark.js"
+      ],
+      "matches": [
+        "http://grooveshark.com/*",
+        "https://grooveshark.com/*"
+      ]
+    },
+    {
+      "js": [
+        "jquery.min.js",
+        "baidumusic.js"
+      ],
+      "matches": [
+        "http://play.baidu.com/*"
+      ]
+    },
+    {
+      "js": [
+        "jquery.min.js",
+        "google_doodle_remove.js"
+      ],
+      "matches": [
+        "*://www.google.com.hk/*"
+      ]
+    },
+    {
+      "js": [
+        "jquery.min.js",
+        "cnbeta.com.js"
+      ],
+      "matches": [
+        "*://*.cnbeta.com/*"
+      ]
+    }
+  ]
+}
