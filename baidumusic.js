@@ -9,6 +9,8 @@ var removeBottomAds = function () {
 	$(".ui-reelList-viewport").css({
 		"bottom": 0
 	});
+
+	$("#right-ads").remove();
 };
 
 setInterval(removeBottomAds, 1500);

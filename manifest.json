@@ -40,6 +40,24 @@
       "matches": [
         "*://*.cnbeta.com/*"
       ]
+    },
+    {
+      "js": [
+        "jquery.min.js",
+        "general.js"
+      ],
+      "matches": [
+        "*://*/*"
+      ]
+    },
+    {
+      "js": [
+        "jquery.min.js",
+        "yyets.js"
+      ],
+      "matches": [
+        "*://www.yyets.com/*"
+      ]
     }
   ]
 }
